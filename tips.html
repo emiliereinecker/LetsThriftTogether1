@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Title </title>
+    <!-- With this link I am linking HTML and CSS -->
+        <link rel="stylesheet" href="styles.css">
+</head>
+
+	<body>
+        <!-- I have added <div> so I can centre align the web page later -->
+        <div id="wrapper">
+        <!-- HTML provides 6 levels of headings: <h1>-<h6>. The higher the number, the less prominent heading -->
+        <!-- I wrap heading 1 with a <header> element to implement HTML structural elements. They inform browers about the meaning of the contents -->
+        <header>
+            <!-- By adding a hypertext reference to "index.html", we turn the website title into a link directing vistors back to the home page-->
+            <img src="_images/img_banner.png" alt="Let´s thrift together logo" width="1200" height="200"> 
+            <h1><a href="index.html">Let´s Thrift Together</a></h1>
+        </header>
+        
+    <!-- =========== NAVIGATION ============== -->
+        <nav>
+            <!-- The anchor <a> element is used to define a hyperlink which is used to link to the 3 internal web pages -->
+            <!-- We add the attribute "href" to specify the destination -->
+            <!-- To improve the accesibility of the hyperlink I add another attribute called "title" -->
+            <!-- The link of the <a> element to the corresponding page has been removed in order to make it less confusing as you are on the web page already-->
+            <a id="tips">Tips and Tricks</a>
+            <a href="benefits.html" title="Benefits">Benefits</a>
+            <a href="about.html" title="About Us">About Us</a>
+        </nav>
+    
+    <!-- ========= CONTENT AREA 1 ============ -->	
+        <article id="content-two">
+            <section>
+                <h2>Tip 1: Sell before you buy</h2>
+                    <p>Selling a few items that you are no longer using can help you save money for your thrifting and create storage space for your upcoming purchases. You can sell your items online or at a consignment shop before you load up on thrift store finds.</p>
+            </section>
+            
+            <section>
+                <h2>Tip 2: Find out the stores speciality beforehand</h2>
+                    <p>You can make the thrift shopping experience much easier if you know what the store carries. Some thrift shops specialize in clothing or toys, while others will have a wide array of furniture or home décor. Before heading out, find out which store stocks more of the specific items you’re looking for, and search there first.</p>
+            </section>
+            
+            <section>
+                <h2>Tip 3: Give yourself a clear goal</h2>
+                    <p>Thrift shopping should be about finding things you need, not meandering around looking to collect items. Take note of the things you already own, then make a mental list of the things you’re looking for. If you need to, take pictures with your smartphone to help you remember what you have and what you want.</p>
+            </section>
+            
+            <section>
+                <h2>Tip 4: Avoid impulse buys</h2>
+                    <p>Thrift stores may have low prices, but it can start to add up if you buy enough items. Set a budget and leave your cards at home. Taking a cash-only approach will help you stick to your list of needs and help you avoid overspending.</p>
+            </section>
+            
+            <section>
+                <h2>Tip 5: Shop off-season</h2>
+                    <p>Like with retail stores, the best time to buy seasonal clothing is when the demand is low. Shop for jackets and boots in the summer, and look for sundresses and sandals in the winter.</p>
+            </section>
+        </article>
+            
+        
+    <!-- ========= SIDEBAR ============ -->	
+        <article id="three-columns">
+            <!-- Here I have added images that has been optimized for the web in PhotoShop. I have used Bicubic Sharper to make the images smaller for best image quality. The image format is JPEG since this is more suitable for natural images -->
+            <!-- In the <img> tag I have added the src attribute to specify the location of the images. The alt attribute is used to provide and alternate text for the images however my images is only for decoration so I have used an empty alt. Width and height attributes are used to tell the dimensions of the images -->
+            <aside>
+                <img src="_images/img_tip1.jpg" alt="" width="360" height="270">
+            </aside>
+            
+            <aside>
+                <img src="_images/img_tip2.jpg" alt="" width="410" height="270">
+            </aside>
+            
+            <aside>
+                <img src="_images/img_tip3.jpg" alt="" width="430" height="270">
+            </aside>
+        </article>
+           
+            
+    <!-- ============= FOOTER ================ -->
+    
+     <footer>
+        <ul> 
+        <!-- Information about copyright, policy and address -->
+        <!-- To get the symbol of copyright, I have used the HTML copyright symbol &#169 -->
+        <li>&#169; Let´s Thrift Together</li>
+        <li>Privacy Policy</li>
+            <li>Contact us at: 
+            <!-- Here I have made an e-mail link by surrounding the e-mail address with the <a> element and href attribute with a value of a pseudo e-mail address with a preceding keyword, mailto -->
+            <a href="mailto:letsthrift@together.com">letsthrift@together.com</a></li>
+            <li>Find us at: 2 Bradfordstreet, Mount Lawley WA 6050</li>
+        </ul>
+        </footer>
+        
+</div>
+</body>
+</html>
